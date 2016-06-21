@@ -23,7 +23,7 @@
     <platform
         name="Weibo"
         key="xxxxxx"
-        redirectUrl="http://com.lakala.com"
+        redirectUrl="url"
         className="im.wangchao.msharecore.platform.weibo.Weibo" />
 
     <platform
