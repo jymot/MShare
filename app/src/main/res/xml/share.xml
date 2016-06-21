@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+    <!--
+        必要配置
+        name : 平台名称
+        key : 分享用到的key, 将下面的key替换为您对应平台的appKey或appId
+        className : 平台类名全路径
+
+        可自定义配置，如：
+        redirectUrl: ''
+        名字随意起，在 PlatformEntry 中使用get(自定义配置名称)获取value
+    -->
+    <platform
+        name="WeChat"
+        key="xxxxxx"
+        className="im.wangchao.msharecore.platform.weichat.WeChat" />
+
+    <platform
+        name="WeChatMoments"
+        key="xxxxxx"
+        className="im.wangchao.msharecore.platform.weichat.WeChatMoments" />
+
+    <platform
+        name="Weibo"
+        key="xxxxxx"
+        redirectUrl="http://com.lakala.com"
+        className="im.wangchao.msharecore.platform.weibo.Weibo" />
+
+    <platform
+        name="QQ"
+        key="xxxxxx"
+        className="im.wangchao.msharecore.platform.qq.QQ" />
+</manifest>
