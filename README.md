@@ -65,6 +65,7 @@
         <category android:name="android.intent.category.DEFAULT"/>
         <category android:name="android.intent.category.BROWSABLE"/>
         <data android:scheme="tencent您的AppId"/>
+        <!-- example: tencent12312451-->
     </intent-filter>
 </activity>
 ```
