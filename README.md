@@ -3,9 +3,10 @@
 
 ###Gradle:
 ```gradle
-  compile 'im.wangchao:mshare:0.1.0'
+  compile 'im.wangchao:mshare:0.1.1'
 ```
 ###混淆
+ProGuard rules now ship inside of the library and are included automatically.
 ```java
     -keep public class * extends im.wangchao.msharecore.SharePlatform
     -dontwarn im.wangchao.**

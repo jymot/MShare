@@ -15,3 +15,5 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+-keep public class * extends im.wangchao.msharecore.SharePlatform
+-dontwarn im.wangchao.**
