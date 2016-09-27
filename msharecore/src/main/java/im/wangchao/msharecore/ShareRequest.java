@@ -2,7 +2,6 @@ package im.wangchao.msharecore;
 
 /**
  * <p>Description  : ShareRequest.</p>
- * <p/>
  * <p>Author       : wangchao.</p>
  * <p>Date         : 16/6/14.</p>
  * <p>Time         : 上午10:55.</p>

@@ -61,8 +61,8 @@ public class StatusesAPI extends AbsOpenAPI {
     /**
      * API 类型。
      * 命名规则：
-     *      <li>读取接口：READ_API_XXX
-     *      <li>写入接口：WRITE_API_XXX
+     *      读取接口：READ_API_XXX
+     *      写入接口：WRITE_API_XXX
      * 请注意：该类中的接口仅做为演示使用，并没有包含所有关于微博的接口，第三方开发者可以
      * 根据需要来填充该类，可参考legacy包下 {@link com.sina.weibo.sdk.openapi.legacy.StatusesAPI}
      */
@@ -101,11 +101,11 @@ public class StatusesAPI extends AbsOpenAPI {
      * @param page        返回结果的页码，默认为1。
      * @param base_app    是否只获取当前应用的数据。false为否（所有数据），true为是（仅当前应用），默认为false。
      * @param featureType 过滤类型ID，0：全部、1：原创、2：图片、3：视频、4：音乐，默认为0。
-     *                    <li>{@link #FEATURE_ALL}
-     *                    <li>{@link #FEATURE_ORIGINAL}
-     *                    <li>{@link #FEATURE_PICTURE}
-     *                    <li>{@link #FEATURE_VIDEO}
-     *                    <li>{@link #FEATURE_MUSICE}
+     *                    {@link #FEATURE_ALL}
+     *                    {@link #FEATURE_ORIGINAL}
+     *                    {@link #FEATURE_PICTURE}
+     *                    {@link #FEATURE_VIDEO}
+     *                    {@link #FEATURE_MUSICE}
      * @param trim_user   返回值中user字段开关，false：返回完整user字段、true：user字段仅返回user_id，默认为false。
      * @param listener    异步请求回调接口
      */
@@ -124,16 +124,16 @@ public class StatusesAPI extends AbsOpenAPI {
      * @param count         单页返回的记录条数，默认为50。
      * @param page          返回结果的页码，默认为1。
      * @param authorType    作者筛选类型，0：全部、1：我关注的人、2：陌生人 ,默认为0。可为以下几种 :
-     *                      <li>{@link #AUTHOR_FILTER_ALL}
-     *                      <li>{@link #AUTHOR_FILTER_ATTENTIONS}
-     *                      <li>{@link #AUTHOR_FILTER_STRANGER}
+     *                      {@link #AUTHOR_FILTER_ALL}
+     *                      {@link #AUTHOR_FILTER_ATTENTIONS}
+     *                      {@link #AUTHOR_FILTER_STRANGER}
      * @param sourceType    来源筛选类型，0：全部、1：来自微博的评论、2：来自微群的评论，默认为0。可为以下几种 :
-     *                      <li>{@link #SRC_FILTER_ALL}
-     *                      <li>{@link #SRC_FILTER_WEIBO}
-     *                      <li>{@link #SRC_FILTER_WEIQUN}
+     *                      {@link #SRC_FILTER_ALL}
+     *                      {@link #SRC_FILTER_WEIBO}
+     *                      {@link #SRC_FILTER_WEIQUN}
      * @param filterType    原创筛选类型，0：全部微博、1：原创的微博，默认为0。 可为以下几种 :
-     *                      <li>{@link #TYPE_FILTER_ALL}
-     *                      <li>{@link #TYPE_FILTER_ORIGAL}
+     *                      {@link #TYPE_FILTER_ALL}
+     *                      {@link #TYPE_FILTER_ORIGAL}
      * @param trim_user     返回值中user字段开关，false：返回完整user字段、true：user字段仅返回user_id，默认为false
      * @param listener      异步请求回调接口
      */

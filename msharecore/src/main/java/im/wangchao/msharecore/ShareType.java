@@ -7,7 +7,6 @@ import java.lang.annotation.RetentionPolicy;
 
 /**
  * <p>Description  : ShareType.</p>
- * <p/>
  * <p>Author       : wangchao.</p>
  * <p>Date         : 16/6/14.</p>
  * <p>Time         : 上午11:25.</p>

@@ -27,7 +27,6 @@ import im.wangchao.msharecore.ShareRequest;
 
 /**
  * <p>Description  : Weibo.</p>
- * <p/>
  * <p>Author       : wangchao.</p>
  * <p>Date         : 16/6/20.</p>
  * <p>Time         : 下午2:56.</p>

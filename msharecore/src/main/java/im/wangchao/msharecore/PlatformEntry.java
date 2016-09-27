@@ -4,7 +4,6 @@ import java.util.Map;
 
 /**
  * <p>Description  : PlatformEnrty.</p>
- * <p/>
  * <p>Author       : wangchao.</p>
  * <p>Date         : 16/6/14.</p>
  * <p>Time         : 下午4:49.</p>
@@ -42,7 +41,7 @@ public final class PlatformEntry {
     }
 
     /**
-     * 获取自定义 key <=> value
+     * 获取自定义 key - value
      */
     public String get(String key){
         return keyAndValue.get(key);

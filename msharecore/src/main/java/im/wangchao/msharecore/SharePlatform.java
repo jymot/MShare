@@ -11,7 +11,6 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * <p>Description  : SharePlatform.</p>
- * <p/>
  * <p>Author       : wangchao.</p>
  * <p>Date         : 16/6/13.</p>
  * <p>Time         : 下午4:02.</p>

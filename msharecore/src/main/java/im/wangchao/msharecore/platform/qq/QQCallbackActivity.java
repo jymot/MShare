@@ -14,7 +14,6 @@ import im.wangchao.msharecore.SharePlatform;
 
 /**
  * <p>Description  : QQCallbackActivity.</p>
- * <p/>
  * <p>Author       : wangchao.</p>
  * <p>Date         : 16/6/21.</p>
  * <p>Time         : 下午1:51.</p>

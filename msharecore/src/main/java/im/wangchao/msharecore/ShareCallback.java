@@ -2,7 +2,6 @@ package im.wangchao.msharecore;
 
 /**
  * <p>Description  : ShareCallback.</p>
- * <p/>
  * <p>Author       : wangchao.</p>
  * <p>Date         : 16/6/14.</p>
  * <p>Time         : 下午2:12.</p>

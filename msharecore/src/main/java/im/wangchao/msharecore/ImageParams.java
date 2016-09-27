@@ -8,7 +8,6 @@ import java.io.ByteArrayOutputStream;
 
 /**
  * <p>Description  : ImageParams.</p>
- * <p/>
  * <p>Author       : wangchao.</p>
  * <p>Date         : 16/6/15.</p>
  * <p>Time         : 下午1:34.</p>

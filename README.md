@@ -3,7 +3,7 @@
 
 ###Gradle:
 ```gradle
-  compile 'im.wangchao:mshare:0.1.1'
+  compile 'im.wangchao:mshare:0.1.2'
 ```
 ###混淆
 ProGuard rules now ship inside of the library and are included automatically.

@@ -4,7 +4,6 @@ import com.tencent.mm.sdk.modelmsg.SendMessageToWX;
 
 /**
  * <p>Description  : WeChatMoments.</p>
- * <p/>
  * <p>Author       : wangchao.</p>
  * <p>Date         : 16/6/15.</p>
  * <p>Time         : 下午2:53.</p>

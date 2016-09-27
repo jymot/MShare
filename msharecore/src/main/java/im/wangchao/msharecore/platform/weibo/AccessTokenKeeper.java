@@ -24,7 +24,6 @@ import com.sina.weibo.sdk.auth.Oauth2AccessToken;
 
 /**
  * <p>Description  : 该类定义了微博授权时所需要的参数.</p>
- * <p/>
  * <p>Author       : wangchao.</p>
  * <p>Date         : 16/6/20.</p>
  * <p>Time         : 下午2:52.</p>

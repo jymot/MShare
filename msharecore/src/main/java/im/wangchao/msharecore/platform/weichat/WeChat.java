@@ -21,7 +21,6 @@ import im.wangchao.msharecore.ShareType;
 
 /**
  * <p>Description  : WeChat.</p>
- * <p/>
  * <p>Author       : wangchao.</p>
  * <p>Date         : 16/6/14.</p>
  * <p>Time         : 下午3:27.</p>

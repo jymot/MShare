@@ -4,7 +4,6 @@ import android.content.Context;
 
 /**
  * <p>Description  : MShareCore.</p>
- * <p/>
  * <p>Author       : wangchao.</p>
  * <p>Date         : 16/6/13.</p>
  * <p>Time         : 下午3:48.</p>
@@ -36,7 +35,7 @@ public final class MShareCore {
     public void initialize(Context context){
         this.invokeInitialize = true;
         ShareXmlParser.instance().parse(context);
-        this.context = context;
+        this.context = context.getApplicationContext();
     }
 
     /**

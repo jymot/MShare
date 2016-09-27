@@ -16,7 +16,6 @@ import im.wangchao.msharecore.ShareType;
  * <p>Description  : QQ.
  *                   图片分享只支持本地图片
  *                   网页分享只支持URL图片</p>
- * <p/>
  * <p>Author       : wangchao.</p>
  * <p>Date         : 16/6/21.</p>
  * <p>Time         : 上午11:28.</p>

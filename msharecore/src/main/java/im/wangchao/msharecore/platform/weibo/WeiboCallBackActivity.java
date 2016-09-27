@@ -13,7 +13,6 @@ import im.wangchao.msharecore.SharePlatform;
 
 /**
  * <p>Description  : WeiboCallBackActivity.</p>
- * <p/>
  * <p>Author       : wangchao.</p>
  * <p>Date         : 16/6/20.</p>
  * <p>Time         : 下午5:53.</p>
