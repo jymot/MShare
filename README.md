@@ -1,18 +1,18 @@
 # MShare
 简单社会化分享
 
-###Gradle:
+### Gradle:
 ```gradle
   compile 'im.wangchao:mshare:0.1.2'
 ```
-###混淆
+### 混淆
 ProGuard rules now ship inside of the library and are included automatically.
 ```java
     -keep public class * extends im.wangchao.msharecore.SharePlatform
     -dontwarn im.wangchao.**
 ```
-###如何使用
-#####1.配置工程
+### 如何使用
+##### 1.配置工程
 在res目录中创建xml目录，并在xml目录中创建share.xml文件，具体内容如下：
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -70,7 +70,7 @@ ProGuard rules now ship inside of the library and are included automatically.
     </intent-filter>
 </activity>
 ```
-#####2.调用分享
+##### 2.调用分享
 初始化，在使用分享功能时，优先调用初始化方法。
 ```java
 MShareCore.instance().initialize(this);
@@ -158,11 +158,11 @@ ShareRequest request = ShareRequest.createBuilder().platformName(WeChatMoments.N
                 request.execute();
 ```
 
-#####3.自定义平台
+##### 3.自定义平台
 自定义平台只需要继承SharePlatform，并在share.xml中配置该平台即可，具体可以参考默认平台配置。
 
 
-###联系我
+### 联系我
 - Email:  magician.of.technique@aliyun.com
 
 ### License
